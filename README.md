@@ -16,19 +16,19 @@ These commands are made corresponding to the following assumption.
 3. Each command has their own specific syntax, which we provide next.
 </p>
 
-<h5>cd<h5>
+<h5>cd</h5>
 <p>cd 'folder'. It doesn't support files for changing directory</p>
-<h5>ls<h5>
+<h5>ls</h5>
 <p>ls 'folder'. Folder is optional in this case. 'ls' will give you information about all files in the current dir. Supported flags: -l</p>
-<h5>cat<h5>
+<h5>cat</h5>
 <p>cat 'file'. It doesn't support folders</p>
-<h5>cp<h5>
+<h5>cp</h5>
 <p>cd 'file_or_folder' 'folder_to_copy'. It is implemented -r if a folder for copying was provided</p>
-<h5>mv<h5>
+<h5>mv</h5>
 <p>mv 'file_or_folder' 'folder_to_move'. 'folder_to_move' is optional. If you dont provide 'folder_to_move' it will move folder to the current directory</p>
-<h5>rm<h5>
+<h5>rm</h5>
 <p>rm 'file_or_folder'. Supported flags: -l. It will not delete folder to which it doesn't have access to. Restrictions: it won't delete parent folder '..' or root</p>
-<h5>zip/tar<h5>
+<h5>zip/tar</h5>
 <p>zip/tar 'folder' 'archieve.zip'. First argument is the folder for archiving, second - folder to place the archive</p>
-<h5>unzip/untar<h5>
+<h5>unzip/untar</h5>
 <p>unzip/untar 'archieve.zip'. It extracts all files from an archive to the current folder</p>
