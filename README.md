@@ -10,7 +10,6 @@ It also supports 'quit' command to stop executing of the program
 These commands are made corresponding to the following assumption.
 </p>
 <h3>Assumption</h3>
-<p>
 <ol>
 <li>
 1. All the commands cannot be called more with more than 2 arguments.
@@ -21,7 +20,6 @@ These commands are made corresponding to the following assumption.
 <li>
 3. Each command has their own specific syntax, which we provide next.
 </li>
-</p>
 </ol>
 <h4>cd</h4>
 <p>cd 'folder'. It doesn't support files for changing directory</p>
